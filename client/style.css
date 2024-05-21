@@ -1,0 +1,200 @@
+/* Navbar styles */
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 22px;
+}
+.navbar-light .navbar-brand {
+  color: black;
+  font-size: 30px;
+}
+
+/* Header styles */
+header {
+  position: relative;
+  height: 40vh;
+  min-height: 380px;
+  background-size: cover;
+  background-image: url(./assets/maincover.jpeg);
+  width: 100%;
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.header-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.header-content p {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+#headertextbtn {
+  border-radius: 15px;
+  padding: 6px 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 12px;
+  color: black;
+  font-weight: 400;
+}
+#Discover_para {
+  color: #15355f;
+  color: white;
+}
+#Discover_paraa {
+  /* color: #963838;   */
+  color: rgb(247, 247, 240);
+  margin-bottom: 2px;
+}
+/* ............... */
+
+.container {
+  display: flex;
+}
+
+/* Style for the first section */
+.section1 {
+  flex: 0 0 50%;
+  padding: 20px;
+  /* border: 1px solid #ccc;  */
+  margin: 10px;
+}
+
+/* Style for the second section */
+.section2 {
+  flex: 0 0 50%;
+  padding: 20px;
+  /* border: 1px solid #ccc;  */
+  margin: 10px;
+}
+#f_4_icons {
+  color: #ff4500;
+  font-size: 30px;
+  padding-top: 12px;
+}
+#f_3_icons {
+  color: white;
+  font-size: 30px;
+}
+
+#3rd_card {
+  background-color: #ff4500;
+}
+
+.card {
+  width: 85%;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.214);
+}
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 14px;
+  color: gray;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.btn {
+  color: #ff4500;
+  padding-left: 0px;
+}
+
+#card_4 {
+  color: white;
+  padding-top: 12px;
+}
+
+.card-body {
+  padding-left: 0px;
+}
+
+.navbar-red-bg {
+  background-color: white !important;
+  transition: background-color 1s ease;
+}
+
+/* ................... */
+.btn-2-learn {
+  background-color: #ff4500;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  padding: 6px 18px;
+  font-weight: 500;
+}
+.digital_heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 2rem;
+}
+
+.digital_paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.8rem;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 16px;
+  color: gray;
+}
+.section_2_container {
+  margin-top: 80px;
+}
+
+.row {
+  justify-content: center;
+}
+@media (max-width: 991px) {
+  #navbarSupportedContent {
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+  .header-content {
+    top: 57%;
+  }
+  #Discover_para {
+    font-size: x-large;
+  }
+  .container_2_for_cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .container_for_row_cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .section1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .card-text {
+    font-size: 18px;
+  }
+  .digital_paragraph {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .section_2_container {
+    margin-top: 0px;
+  }
+  .digital_heading p {
+    margin-bottom: 0px;
+  }
+}
